@@ -1,0 +1,6 @@
+name: Build mod
+
+on:
+  push:            # runs on every push to any branch
+  pull_request:    # runs when a pull request is opened or updated
+  workflow_dispatch:  # adds a manual "Run workflow" button
